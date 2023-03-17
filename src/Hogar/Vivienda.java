@@ -130,7 +130,7 @@ public class Vivienda {
     
     public void actualizarPrecio(double descuento)
     {
-        /*Metodo que nos devuelve el precio con el descuento*/
+        /*Metodo que nos devuelve el precio con el descuento.*/
         setPrecio(getPrecio() - getPrecio() * descuento);
     }
     
